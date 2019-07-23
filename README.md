@@ -1,5 +1,5 @@
 # vue-cli-3.x-template
-使用Vue-cli@3.x从零搭建Vue项目
+使用Vue-cli3.x从零搭建Vue项目
 
 ### 示例
 ![](https://user-gold-cdn.xitu.io/2019/7/23/16c1c3a497b39b6c?w=380&h=676&f=gif&s=1925924)
