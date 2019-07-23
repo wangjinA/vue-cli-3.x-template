@@ -7,3 +7,25 @@
 > 线上预览地址：[http://129.28.151.8:3001/index.html](http://129.28.151.8:3001/index.html)
 
 > 博客链接：[http://129.28.151.8:3001/index.html](http://129.28.151.8:3001/index.html)
+
+### 使用
+
+#### 初始化
+
+```
+npm install
+```
+
+#### 运行
+
+```
+npm run serve
+或
+npm run dev
+```
+
+#### 预览
+
+```
+http://localhost:8080
+```
