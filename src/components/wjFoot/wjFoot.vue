@@ -1,9 +1,11 @@
 <template>
-  <footer class="top-line tabbar-footer">
-    <router-link v-for="(item, index) in tabPages" :key="index" :to="item.path">
-      {{item.meta.title}}
-    </router-link>
-  </footer>
+  <div class="foot-wrap">
+    <footer class="top-line tabbar-footer">
+      <router-link v-for="(item, index) in tabPages" :key="index" :to="item.path">
+        {{item.meta.title}}
+      </router-link>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -18,6 +20,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.foot-wrap
+  height 50px
+  z-index 99999
+  position relative
 .tabbar-footer 
   display: flex;
   height: 50px;
