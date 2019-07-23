@@ -6,7 +6,7 @@
 
 > 线上预览地址：[效果预览](http://129.28.151.8:3001/index.html)
 
-> 博客链接：[使用Vue-cli@3.x从零搭建Vue项目](http://129.28.151.8:3001/index.html)
+> 博客链接：[使用Vue-cli@3.x从零搭建Vue项目](https://juejin.im/post/5d3572fef265da1bbf695af4)
 
 ### 使用
 
