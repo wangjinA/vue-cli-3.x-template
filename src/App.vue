@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <wj-head v-if="title" :isBack="isBack" :title="title"></wj-head>
-    <router-view></router-view>
+    <vue-route-transition :keepAlive="true"></vue-route-transition>
     <wj-foot v-if="showTabbar"></wj-foot>
   </div>
 </template>

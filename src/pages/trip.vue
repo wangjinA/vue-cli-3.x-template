@@ -1,6 +1,7 @@
 <template>
   <div>
     trip
+    tab不需要动画
   </div>
 </template>
 

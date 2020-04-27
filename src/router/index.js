@@ -1,3 +1,10 @@
+/*
+ * @Author: 汪锦
+ * @Date: 2020-03-30 10:01:19
+ * @LastEditors: 汪锦
+ * @LastEditTime: 2020-04-27 10:54:26
+ * @Description: 
+ */
 import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
@@ -36,7 +43,12 @@ const router = new Router({
   tabPages, // tabbar组件配置，可以通过this.$router.options.tabPages
   linkExactActiveClass: "active", // <router-link>选中的class，用来做底部tabbar选中状态样式高亮
   routes: [
-    ...tabPages,
+    {
+      path: '',
+      redirect: '/',
+      children: [...tabPages],
+      component: resolve => require(['@/pages/main'], resolve), // 路由懒加载方式，'@/' webpack配置默认的别名，指向src/
+    },
     {
       path: '/notTab',
       component: resolve => require(['@/pages/notTab'], resolve),
